@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0 px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    font-family: cursive;
+    width: 100%;
+    background-image: url("https://i.ibb.co/ykHVvJd/261315587-1342940339457407-3074218123971114323-n.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70px;
+    z-index: 1;
+}
+
+
+nav a {
+    color: rgb(252, 215, 160);
+text-shadow: 1px 1px 5px black;
+    text-decoration: none;
+    margin: auto 0px auto 0px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+section {
+    scroll-margin-top: 85px;
+}
+
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: rgb(252, 215, 160);
+    text-shadow: black 1px 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer p,
+.footer a {
+    color: rgb(252, 215, 160);
+    text-shadow: black 1px 0 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.socials {
+    display: inline-block;
+}
+
+
+.socials img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer-author {
+    text-align: center;
+    width: 100%;
+}
+
+.live {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 100px ;
+}
+
+.live article {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(252, 215, 160);
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.live article:hover {
+    background-color: black;
+    transform: scale(1.2);
+    transition: 2s;
+
+}
+
+.galereya {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galereya article {
+    width: 400px;
+    margin: 15px;
+
+
+
+}
+
+.galereya article img {
+    width: 100%;
+    margin: 10px;
+
+
+}
+
+.galereya article:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.galereya article iframe {
+    width: 100%;
+}
